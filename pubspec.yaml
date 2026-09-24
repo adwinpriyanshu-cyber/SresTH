@@ -37,6 +37,11 @@ dependencies:
   geolocator: ^14.0.3
   flutter_map: ^8.3.2
   latlong2: ^0.10.1
+  http: ^1.6.0
+  sensors_plus: ^7.1.0
+  flutter_launcher_icons: ^0.14.4
+  shared_preferences: ^2.5.5
+  path_provider: ^2.1.6
 
 dev_dependencies:
   flutter_test:
@@ -54,11 +59,15 @@ dev_dependencies:
 
 # The following section is specific to Flutter packages.
 flutter:
-
-  # The following line ensures that the Material Icons font is
-  # included with your application, so that you can use the icons in
-  # the material Icons class.
   uses-material-design: true
+
+  assets:
+    - assets/shresth_app_icon.png
+
+flutter_launcher_icons:
+  android: true
+  ios: false
+  image_path: "assets/shresth_app_icon.png"
 
   # To add assets to your application, add an assets section, like this:
   # assets:
